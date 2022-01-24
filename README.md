@@ -84,6 +84,6 @@ High-level modules should not depend on low-level modules, both should depend on
 
 # References
 
-A Solid Guide to SOLID Principles - https://www.baeldung.com/solid-principles
-What are the SOLID principles in Java? - https://www.educative.io/edpresso/what-are-the-solid-principles-in-java
+- A Solid Guide to SOLID Principles - https://www.baeldung.com/solid-principles
+- What are the SOLID principles in Java? - https://www.educative.io/edpresso/what-are-the-solid-principles-in-java
 
