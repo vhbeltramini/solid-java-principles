@@ -1,5 +1,7 @@
 # solid-java-principles
 
+# en-US
+
 - SOLID
   - **S**ingle Responsibility Principle
   - **O**pen Closed Principle
@@ -7,6 +9,45 @@
   - **I**nterface Segregation Principle
   - **D**ependency Inversion Principle
 
+# **S**ingle Responsibility Principle
+Each class should be responsible for a single part or functionality of the system.
+
+- Benefits 
+  - **Testing** – A class with one responsibility will have far fewer test cases.
+  - **Lower coupling** – Less functionality in a single class will have fewer dependencies.
+  - **Organization** – Smaller, well-organized classes are easier to search than monolithic ones.
+
+# **O**pen Closed Principle
+Software components should be open for extension, but not for modification
+
+- Benefits
+  - **Less Bugs** - We stop ourselves from modifying existing code and causing potential new bugs in other parts of the system that could be using that part of code that we modify 
+
+# **L**iskov Substitution Principle
+Objects of a superclass should be replaceable with objects of its subclasses without breaking the system. In other words the Liskov Substitution Principle (LSP) applies to inheritance hierarchies such that derived classes must be completely substitutable for their base classes.
+
+- Benefits
+  - **Code re-usability**
+  - **Reduced coupling**
+  - **Easier maintenance** 
+
+
+# **I**nterface Segregation Principle
+No client should be forced to depend on methods that it does not use. In other words you should not use a hierarchie of a classe that you do not need all of his propriets or methods. To do that larger interfaces should be split into smaller ones. So, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
+
+- Benefits 
+  - **Readability and Maintainability** of the code because we reduce our classes implementation only to required actions that we need without any additional or unnecessary code.
+
+# **D**ependency Inversion Principle
+High-level modules should not depend on low-level modules, both should depend on abstractions. Our code should depend on abstractions (interfaces and abstract classes) instead of concrete implementations (classes). The abstractions should not depend on details; instead, the details should depend on abstractions.
+
+- Benefits 
+  - **Flexibility and Stability** at the level of the entire architecture
+
+
+# pt-BR
+
+# Principais pontos a serem seguidos para ter um Projeto adequado aos princípios SOLID
 
 - Coesão:
   - Uma classe coesa faz bem uma única coisa
@@ -40,4 +81,9 @@
   - As interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento;
   - O Princípio de Inversão de Dependência (DIP) diz que implementações devem depender de abstrações e abstrações não devem depender de implementações;
   - O Princípio de Segregação de Interfaces (ISP) diz que uma classe não deve ser obrigada a implementar um método que ela não precisa;
+
+# References
+
+A Solid Guide to SOLID Principles - https://www.baeldung.com/solid-principles
+What are the SOLID principles in Java? - https://www.educative.io/edpresso/what-are-the-solid-principles-in-java
 
