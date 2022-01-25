@@ -10,6 +10,9 @@
   - **D**ependency Inversion Principle
 
 # **S**ingle Responsibility Principle
+<p align="center">
+<img src="https://exceptionnotfound.net/content/images/2015/03/singleresponsibilityprinciple.jpg">
+</p>
 Each class should be responsible for a single part or functionality of the system.
 
 - Benefits 
@@ -18,12 +21,19 @@ Each class should be responsible for a single part or functionality of the syste
   - **Organization** – Smaller, well-organized classes are easier to search than monolithic ones.
 
 # **O**pen Closed Principle
+<p align="center">
+<img src="https://exceptionnotfound.net/content/images/2015/03/openclosedprinciple.jpg">
+</p>
 Software components should be open for extension, but not for modification
 
 - Benefits
   - **Less Bugs** - We stop ourselves from modifying existing code and causing potential new bugs in other parts of the system that could be using that part of code that we modify 
 
 # **L**iskov Substitution Principle
+<p align="center">
+<img src="https://exceptionnotfound.net/content/images/2015/03/liskovsubstitutionprinciple.jpg">
+</p>
+
 Objects of a superclass should be replaceable with objects of its subclasses without breaking the system. In other words the Liskov Substitution Principle (LSP) applies to inheritance hierarchies such that derived classes must be completely substitutable for their base classes.
 
 - Benefits
@@ -33,12 +43,22 @@ Objects of a superclass should be replaceable with objects of its subclasses wit
 
 
 # **I**nterface Segregation Principle
+<p align="center">
+<img src="https://exceptionnotfound.net/content/images/2015/03/interfacesegregationprinciple.jpg">
+</p>
+
+
 No client should be forced to depend on methods that it does not use. In other words you should not use a hierarchie of a classe that you do not need all of his propriets or methods. To do that larger interfaces should be split into smaller ones. So, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
 
 - Benefits 
   - **Readability and Maintainability** of the code because we reduce our classes implementation only to required actions that we need without any additional or unnecessary code.
 
 # **D**ependency Inversion Principle
+
+<p align="center">
+<img src="https://www.exceptionnotfound.net/content/images/2015/03/dependencyinversionprinciple.jpg">
+</p>
+
 High-level modules should not depend on low-level modules, both should depend on abstractions. Our code should depend on abstractions (interfaces and abstract classes) instead of concrete implementations (classes). The abstractions should not depend on details; instead, the details should depend on abstractions.
 
 - Benefits 
@@ -86,4 +106,5 @@ High-level modules should not depend on low-level modules, both should depend on
 
 - A Solid Guide to SOLID Principles - https://www.baeldung.com/solid-principles
 - What are the SOLID principles in Java? - https://www.educative.io/edpresso/what-are-the-solid-principles-in-java
+- SOLID in C#: The Single Responsibility Principle - https://exceptionnotfound.net/simply-solid-the-single-responsibility-principle/
 
